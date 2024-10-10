@@ -14,6 +14,7 @@ Todas las demás dependencias están incluidas en el archivo `requirements.txt` 
 
 
 ## Estructura de carpetas
+```bash
 /project
 ├── app/
 │   ├── config/                # Archivos de configuracion
@@ -26,6 +27,7 @@ Todas las demás dependencias están incluidas en el archivo `requirements.txt` 
 ├── Dockerfile                 # Archivo de configuración de Docker
 ├── requirements.txt           # Dependencias de Python
 └── README.md                  # Documentación del proyecto
+```
 
 
 ## Cómo funciona el modelo
