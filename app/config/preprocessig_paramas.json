@@ -1,0 +1,27 @@
+{"column_types": {
+    "paperless_billing": "int8",
+    "partner": "int8",
+    "dependents": "int8",
+    "online_security": "int8",
+    "online_backup": "int8",
+    "device_protection": "int8",
+    "tech_support": "int8"},
+"columns_replace_nan": {
+    "internet_service": "neither", 
+    "online_backup": "No", 
+    "online_security": "No", 
+    "device_protection": "No", 
+    "tech_support": "No"
+},
+"drop_nan_columns": ["begin_date"],
+"columns_to_scale": ["monthly_charges", "total_charges"],
+"binary_columns" :["paperless_billing",
+                "partner",
+                "dependents",
+                "online_security",
+                "online_backup",
+                "device_protection",
+                "tech_support"],
+"columns_to_onehot": ["type","pay_mentmethod","internet_service"]
+
+}
